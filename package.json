@@ -12,13 +12,13 @@
     "test": "./utils/activate.sh && ./node_modules/.bin/karma start tests/karma.conf.js --single-run",
     "start:dev": "nodemon -w scripts/ -w css/ -w ../engine/scripts/ -w ../engine/css/ -w ../physics/scripts/ -w ../utils/scripts/ -w ../elements/scripts/ -w ../elements/css/ --exec ./utils/build.sh"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/jbaicoianu/janusweb"
   },
   "dependencies": {
-    "elation-engine": ">=0.9.73",
+    "elation": "^2.3.19",
+    "elation-engine": "^0.9.114",
     "uglify-es": "*"
   },
   "keywords": [
